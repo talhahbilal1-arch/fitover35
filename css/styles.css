@@ -1,23 +1,33 @@
 /* Fit Over 35 - Styles */
-/* Modern, masculine design for men's fitness */
+/* Premium, modern design for men's fitness over 35 */
 
 :root {
-  /* Brand Colors */
-  --primary: #E63946;       /* Bold red */
-  --primary-dark: #C1121F;
-  --secondary: #1D3557;     /* Navy blue */
-  --accent: #F77F00;        /* Orange */
-  --dark: #0D1B2A;
-  --gray-900: #1a1a2e;
-  --gray-800: #2d2d44;
-  --gray-700: #404060;
-  --gray-600: #666680;
-  --gray-500: #8888a0;
-  --gray-400: #aaaac0;
-  --gray-300: #cccce0;
-  --gray-200: #e8e8f0;
-  --gray-100: #f5f5fa;
+  /* Brand Colors - Bold & Masculine */
+  --primary: #DC2626;       /* Powerful red */
+  --primary-dark: #B91C1C;
+  --primary-light: #FEE2E2;
+  --secondary: #0F172A;     /* Deep navy */
+  --secondary-light: #1E293B;
+  --accent: #F59E0B;        /* Gold/amber */
+  --accent-light: #FEF3C7;
+  --success: #10B981;
+  --dark: #030712;
+  --gray-900: #111827;
+  --gray-800: #1F2937;
+  --gray-700: #374151;
+  --gray-600: #4B5563;
+  --gray-500: #6B7280;
+  --gray-400: #9CA3AF;
+  --gray-300: #D1D5DB;
+  --gray-200: #E5E7EB;
+  --gray-100: #F3F4F6;
+  --gray-50: #F9FAFB;
   --white: #ffffff;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #DC2626 0%, #991B1B 100%);
+  --gradient-dark: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  --gradient-hero: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #0F172A 100%);
 
   /* Amazon */
   --amazon-orange: #FF9900;
