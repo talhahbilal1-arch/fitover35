@@ -42,7 +42,7 @@ Search for `YOUR_FORM_ID` in:
 Replace with your actual ConvertKit form ID from: https://app.convertkit.com/forms
 
 ### 2. Update Affiliate Links
-The Amazon affiliate tag is set to `fitover35-20`. Update in:
+The Amazon affiliate tag is set to `dailydealdarl-20`. Update in:
 - `index.html` (gear section)
 - Any product articles
 
