@@ -1812,3 +1812,49 @@ button {
     margin: var(--space-md);
   }
 }
+
+/* ============================================
+   MOBILE & PINTEREST TRAFFIC OPTIMIZATIONS
+   Pinterest traffic is 85%+ mobile
+   ============================================ */
+
+/* Minimum tap target size for all interactive elements (48px per Google guidelines) */
+.btn, .btn-primary, .btn-amazon, .btn-dark, .btn-outline,
+a[rel*="sponsored"],
+button[type="submit"] {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+  overflow-x: hidden;
+}
+
+/* All images responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Input fields — prevent iOS zoom (must be 16px+) */
+input[type="email"],
+input[type="text"],
+input[type="search"],
+textarea,
+select {
+  font-size: 16px;
+}
+
+/* Product recommendation cards stack vertically on mobile */
+@media (max-width: 768px) {
+  .product-recommendation div[style*="display: flex"],
+  .product-recommendation .cta-group {
+    flex-direction: column;
+  }
+
+  .product-recommendation a[rel*="sponsored"] {
+    width: 100%;
+    text-align: center;
+  }
+}
